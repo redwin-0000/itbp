@@ -15,13 +15,12 @@ const Header = () => {
       <nav>
         <a className='hover:underline underline-offset-2' href='f'>Skip to Main Content<span className='px-2'>|</span></a>
         <a className='hover:underline underline-offset-2' href='s'>Screen Reader Access <span className='px-2'>|</span></a>
-          <select name="size" className='w-28 h-8 '>
-          <label for="cars" className='bg-[#0f284a]'>A</label>
-            <option value="A-" className='bg-[#0f284a]'>English</option>
-            <option value="A" className='bg-[#0f284a]' >HIndi</option>
-          </select> 
-      </nav>
-      <nav>
+          <select className=" w-24 h-7 ">
+            <option className='bg-[#0f284a]'>English</option>
+            <option className='bg-[#0f284a]'>Hindi</option>
+           </select>
+        </nav>
+        <nav>
         <a className='hover:underline underline-offset-2' href='f'>Home <span className='px-2'>|</span></a>
         <a className='hover:underline underline-offset-2' href='s'>Who We Are <span className='px-2'>|</span></a>
         <a className='hover:underline underline-offset-2' href='f'>Our Heroes <span className='px-2'>|</span></a>

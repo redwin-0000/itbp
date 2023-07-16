@@ -3,21 +3,21 @@ import DG from "../img/NewDG1.jpg"
 
 const heroSection = () => {
   return (
-    <div  className="bg-gray-100 body-font min-h-screen py-[3rem]">
+    <div  className="bg-gray-100 body-font min-h-screen py-[3rem] -mt-[20rem]">
         <div className="container mx-auto flex  flex-wrap p-5 flex-col md:flex-row items-center ">
         <div  className=" flex flex-col flex-wrap items-center text-base justify-center space-y-2">
          <nav className='flex list-none space-x-6'>
             <li>
-                <a href='h' className='text-[#f26522] font-bold'>About ITBP</a>
+                <a href='h' className='text-[#f26522] font-bold hover:underline underline-offset-2'>About ITBP</a>
             </li>
             <li>
-                <a href='h'  className='hover:text-[#f26522] font-bold'>About DG</a>
+                <a href='h'  className='hover:text-[#f26522] hover:underline underline-offset-2 font-bold'>About DG</a>
             </li>
             <li>
-                <a href='h'  className='hover:text-[#f26522] font-bold'>Task Of the Force</a>
+                <a href='h'  className='hover:text-[#f26522] hover:underline underline-offset-2 font-bold'>Task Of the Force</a>
             </li>
             <li>
-                <a href='h'  className='hover:text-[#f26522] font-bold'>Quick Link</a>
+                <a href='h'  className='hover:text-[#f26522] hover:underline underline-offset-2 font-bold'>Quick Link</a>
             </li>
          </nav>
          <div className='text-xl px-10 py-10'>

@@ -6,21 +6,21 @@ import HM from "../img/HM.png"
 const Section_1 = () => {
   return (
    <div>
-    <img src={itbp_r} alt='itbp_6'  className='w-full min-h-screen'/>
+    <img src={itbp_r} alt='itbp_6'  className='w-full min-h-screen '/>
     <div className='-mt-[32rem] flex justify-between'>
      <div className=''>
-     <img src={PM} alt='pm'/>
-     <div className='-mt-[4.5rem] px-44 font-bold'>
+     <img src={PM} alt='pm' className='w-52 py-[18.5rem]'/>
+     <div className='-mt-[23rem] px-3  font-bold'>
         <p>Shree NARENDRA MODI</p>
         <p>HON'BLE PM</p>
      </div>
-     <div className='ml-[40rem]'>
+     <div className='ml-[30rem]'>
         <Courosal />
      </div>
      </div>
-     <div className=''>
-     <img src={HM} alt='hm' />
-     <div className='-mt-[5rem] px-44 font-bold text-white'>
+     <div className='my-[19rem]'>
+     <img src={HM} alt='hm' className='' />
+     <div className='-mt-[5rem] px-0 font-bold text-white'>
         <p>Shree AMIT SHAH</p>
         <p>HON'BLE HM</p>
      </div>
