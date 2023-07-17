@@ -14,13 +14,13 @@ const Section_1 = () => {
         <p>Shree NARENDRA MODI</p>
         <p>HON'BLE PM</p>
      </div>
-     <div className='ml-[30rem]'>
+     <div className='ml-[23rem] -mt-[10rem]'>
         <Courosal />
      </div>
      </div>
      <div className='my-[19rem]'>
-     <img src={HM} alt='hm' className='' />
-     <div className='-mt-[5rem] px-0 font-bold text-white'>
+     <img src={HM} alt='hm' className='w-56 -mt-6' />
+     <div className='-mt-[5rem] px-11 py-5 font-bold text-white'>
         <p>Shree AMIT SHAH</p>
         <p>HON'BLE HM</p>
      </div>

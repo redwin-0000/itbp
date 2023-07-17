@@ -2,7 +2,7 @@ import React from 'react'
 import Itbp from "../img/ITBP_logo_download.jpg" 
 const Header = () => {
   return (
-    <header className="text-white  body-font bg-[#0f284a]">
+    <header className="text-white  body-font bg-[#0f284a] fixed min-w-full">
     <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center ">
       <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0" href='l'>
         <img src={Itbp} alt='logo' className='w-20 h-20 rounded-lg'/>

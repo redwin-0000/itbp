@@ -1,42 +1,33 @@
 import React from 'react'
-// import itbp_1 from "../img/itbp_1.jpeg"
-import PM from "../img/PM.png"
-import HM from "../img/HM.png"
-// import itbp1 from "../img/itbp_1.jpeg"
-// import itbp2 from "../img/itbp_2.jpeg"
-// import itbp3 from "../img/itbp_3.jpeg"
-// import itbp4 from "../img/itbp_4.jpeg"
-// import itbp5 from "../img/itbp_6.jpeg"
+import itbp_1 from "../img/itbp_1.jpeg"
+import itbp_2 from "../img/itbp_12.jpeg"
+import itbp_3 from "../img/itbp_13.jpeg"
+import itbp_4 from "../img/itbp_3.jpeg"
 const Courosal = () => {
   return (
-    <div className='-mt-[8rem] mr-60 '>
-        {/* <div>
-            <img src={itbp_1} alt='itbp' className='w-[40rem]' />
-        </div> */}
-        <div className="carousel carousel-end rounded-box flex">
+    <div className="carousel carousel-center rounded-box flex">
   <div className="carousel-item">
-    <img src={PM} alt="Drink" />
+    <img src={itbp_1} alt="Pizza" />
   </div> 
   <div className="carousel-item">
-    <img src={HM} alt="Drink" />
+    <img src={itbp_2} alt="Pizza" />
   </div> 
   <div className="carousel-item">
-    <img src={PM} alt="Drink" />
+    <img src={itbp_3} alt="Pizza" />
   </div> 
   <div className="carousel-item">
-    <img src={HM} alt="Drink" />
+    <img src={itbp_4} alt="Pizza" />
+  </div> 
+  {/* <div className="carousel-item">
+    <img src="/images/stock/photo-1550258987-190a2d41a8ba.jpg" alt="Pizza" />
   </div> 
   <div className="carousel-item">
-    <img src={PM} alt="Drink" />
+    <img src="/images/stock/photo-1559181567-c3190ca9959b.jpg" alt="Pizza" />
   </div> 
   <div className="carousel-item">
-    <img src={HM} alt="Drink" />
-  </div> 
-  <div className="carousel-item">
-    <img src={PM} alt="Drink" />
-  </div>
+    <img src="/images/stock/photo-1601004890684-d8cbf643f5f2.jpg" alt="Pizza" />
+  </div> */}
 </div>
-    </div>
   )
 }
 
