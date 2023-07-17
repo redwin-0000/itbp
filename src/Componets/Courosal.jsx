@@ -5,7 +5,7 @@ import itbp_3 from "../img/itbp_13.jpeg"
 import itbp_4 from "../img/itbp_3.jpeg"
 const Courosal = () => {
   return (
-    <div className="carousel carousel-center rounded-box flex">
+    <div className="carousel carousel-center rounded-box flex gap-6">
   <div className="carousel-item">
     <img src={itbp_1} alt="Pizza" />
   </div> 
