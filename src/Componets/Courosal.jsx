@@ -7,16 +7,16 @@ const Courosal = () => {
   return (
     <div className="carousel carousel-center rounded-box flex gap-6">
   <div className="carousel-item">
-    <img src={itbp_1} alt="Pizza" />
+    <img src={itbp_1} alt="Pizza" className='hover:scale-125 transition-all duration-500 cursor-pointer' />
   </div> 
   <div className="carousel-item">
-    <img src={itbp_2} alt="Pizza" />
+    <img src={itbp_2} alt="Pizza" className='hover:scale-125 transition-all duration-500 cursor-pointer' />
   </div> 
   <div className="carousel-item">
-    <img src={itbp_3} alt="Pizza" />
+    <img src={itbp_3} alt="Pizza" className='hover:scale-125 transition-all duration-500 cursor-pointer' />
   </div> 
   <div className="carousel-item">
-    <img src={itbp_4} alt="Pizza" />
+    <img src={itbp_4} alt="Pizza" className='hover:scale-125 transition-all duration-500 cursor-pointer' />
   </div> 
   {/* <div className="carousel-item">
     <img src="/images/stock/photo-1550258987-190a2d41a8ba.jpg" alt="Pizza" />
